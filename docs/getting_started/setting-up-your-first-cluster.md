@@ -103,7 +103,7 @@ for i in 0 1 2; do
     --async \
     --boot-disk-size 200GB \
     --can-ip-forward \
-    --image-family ubuntu-1804-lts \
+    --image-family ubuntu-2404-lts-amd64 \
     --image-project ubuntu-os-cloud \
     --machine-type e2-standard-2 \
     --private-network-ip 10.240.0.1${i} \
@@ -124,7 +124,7 @@ for i in 0 1 2; do
     --async \
     --boot-disk-size 200GB \
     --can-ip-forward \
-    --image-family ubuntu-1804-lts \
+    --image-family ubuntu-2404-lts-amd64 \
     --image-project ubuntu-os-cloud \
     --machine-type e2-standard-2 \
     --private-network-ip 10.240.0.2${i} \
